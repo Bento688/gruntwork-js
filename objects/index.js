@@ -65,9 +65,9 @@ const profile = {
 };
 
 const {
-  socials: { github },
+  socials: { github: ghUsername },
 } = profile;
-console.log("Nested Github:", github);
+console.log("Nested Github:", ghUsername);
 // console.log(socials); // referenceError (socials is not defined, only github was extracted)
 
 // ==========================================
